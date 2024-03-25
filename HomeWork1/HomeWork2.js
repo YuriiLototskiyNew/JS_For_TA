@@ -140,4 +140,17 @@ switch (true) {
         console.log("Доброго вечора");
 }
 
+// if-else
+
+if (currentHour >= 23 || currentHour < 5) {
+    console.log("Доброї ночі!");
+} else if (currentHour >= 5 && currentHour < 11) {
+    console.log("Доброго ранку!");
+} else if (currentHour >= 11 && currentHour < 17) {
+    console.log("Доброго дня!");
+} else {
+    console.log("Доброго вечора!");
+}
+
+
 
